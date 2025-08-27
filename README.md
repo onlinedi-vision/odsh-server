@@ -1,10 +1,10 @@
 # Division Online Official Server
 ## Description
-This is the server that will host the global user data (such as the login data), official server data (encrypted messages, users, etc.) and DM's between users. The data stored on the server isn't necessarly decryptable on server side, since server owners can set flags to encrypt data symmetrically and on the client side.
+This is the self-hosted server alternative for the Online Division ecosystem.
 ## Installation
 Installing the server is as easy as cloning the repo. There are some dependencies you have to keep in mind and install on your own.
 ```sh
-$ git clone 'https://github.com/onlinedi-vision/od-official-server.git'
+$ git clone 'https://github.com/onlinedi-vision/odsh-server.git'
 ```
 This server is written with the intention to be ran as root and installed at '/root/od-official-server'. With a logs directory and a cdn directory as described below.
 Also the admin of this server must set certain Environment Variables before running the ```build.sh``` script.
