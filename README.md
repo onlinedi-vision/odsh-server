@@ -1,4 +1,4 @@
-# Division Online Official Server
+# Division Online Self-Hosted Server
 ## Description
 This is the self-hosted server alternative for the Online Division ecosystem.
 ## Installation
